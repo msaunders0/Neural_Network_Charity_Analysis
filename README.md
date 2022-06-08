@@ -21,7 +21,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 - IS_SUCCESSFUL—Was the money used effectively
 
 ## Results
-Data Preprocessing
+### Data Preprocessing
 
 - What variable(s) are considered the target(s) for your model?
     - The target variable for my model was the 'IS_SUCCESSFUL' column.  
@@ -32,7 +32,7 @@ Data Preprocessing
 - What variable(s) are neither targets nor features, and should be removed from the input data?
     - EIN and NAME were dropped for having no benefit to the accuracy rate of the model.
 
-Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
     - For my Sequential model, I initially selected 2 layers, the first with 80 neurons and the second with 30 neurons, using the ReLU activation function for both processing layers and the Sigmoid activation function for the output layer. I felt that this would likely be a good starting point, but expected to optimize these selections.
